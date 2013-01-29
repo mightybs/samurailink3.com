@@ -23,14 +23,14 @@ def add(node)
     else
       @drafts[id] = Post.new(node)
     end
-  when 'comment'
-    reply_to = node.children.find {|c| c.name == 'in-reply-to' }
-    post_id = reply_to.attr('ref')
-    #post_id = node.search('thr').first.attr('ref')
-    @posts[post_id].add_comment(Comment.new(node))
-  when 'template', 'settings'
-  else
-    raise 'dunno '+type
+#  when 'comment'
+#    reply_to = node.children.find {|c| c.name == 'in-reply-to' }
+#    post_id = reply_to.attr('ref')
+#    #post_id = node.search('thr').first.attr('ref')
+#    @posts[post_id].add_comment(Comment.new(node))
+#  when 'template', 'settings'
+#  else
+#    raise 'dunno '+type
   end
 end
 
