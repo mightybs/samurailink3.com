@@ -1,0 +1,90 @@
+---           
+
+layout: post
+
+title: Chrome OS Bootable Flash Drive! (Built on: 3/28/2011)
+
+date: 2011-08-15 14:30:45 UTC
+
+updated: 2011-08-15 14:30:45 UTC
+
+comments: false
+
+categories: Web Computers Operating Systems Chrome OS
+
+---
+
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-ON7Yzn947Hk/TYuSA-cmPNI/AAAAAAAABfw/dprqTHAdbmE/s1600/ChromeLogo.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="319" src="http://3.bp.blogspot.com/-ON7Yzn947Hk/TYuSA-cmPNI/AAAAAAAABfw/dprqTHAdbmE/s320/ChromeLogo.png" width="320" /><span id="goog_1134218509"></span><span id="goog_1134218510"></span>&nbsp;</a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+Well, here it is again! Another build, this one a week later. I've heard some reports that the Chrome Web Apps weren't working quite perfectly on some machines, that's the risk when you're running daily-builds of an operating system. This is freshly built as of yesterday, and I've update the instructions to include how to create a bootable Chrome OS flash drive in both Linux and Mac OSX. As usual, the Windows instructions are still there as always. After the jump, I'll include a copy/paste of the Instructions.txt file for your convenience. Have fun and let me know what you think!</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<strike>Chrome OS - 032811.7z</strike></div>
+<div class="separator" style="clear: both; text-align: left;">
+<b><a href="http://www.samurailink3.com/2011/08/chrome-os-bootable-flash-drive-built-on.html"><span id="goog_1134218529"></span>New Version H<span id="goog_1134218532"></span><span id="goog_1134218533"></span>ere<span id="goog_1134218530"></span></a></b></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+Credits and Utilities:<br />
+To unpack this file, you will need the totally awesome and free unzipping utility: <a href="http://www.7-zip.org/">7zip</a><br />
+This pack contains the <a href="https://launchpad.net/win32-image-writer">Image Writer for Microsoft Windows</a>, which is a great, simple way to take or place images onto drives. Give these guys a hand!<br />
+<div class="separator" style="clear: both; text-align: left;">
+</div>
+<a name='more'></a>Instructions: (These are included in the download, as well)<br />
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+To create a bootable USB drive:</div>
+<br />
+WARNING!<br />
+DANGER!<br />
+READ THIS!<br />
+======================================<br />
+THIS WILL WIPE YOUR ENTIRE FLASH DRIVE<br />
+======================================<br />
+<br />
+1. Open the image writer program.<br />
+2. Click the blue folder, select the usb_chromiumos_image*version info here*.img<br />
+3. Select the USB drive you would like to make bootable.<br />
+4. Click the 'Write' Button<br />
+<br />
+<br />
+To install Chromium OS on your main drive:<br />
+<br />
+WARNING!<br />
+DANGER!<br />
+READ THIS!<br />
+=====================================<br />
+THIS WILL WIPE YOUR ENTIRE HARD DRIVE<br />
+=====================================<br />
+<br />
+1. Boot from your USB device.<br />
+2. CTRL+ALT+F2<br />
+3. Login as Username: chronos Password: password<br />
+4. Run '/usr/sbin/chromeos-install'<br />
+<br />
+==============================================<br />
+How to create a bootable drive using OSX/Linux<br />
+==============================================<br />
+<br />
+DISCLAIMER!!<br />
+Be very very very careful with the dd command. This is a block device writer, it CAN AND WILL DESTROY ALL OF YOUR DATA IF USED INCORRECTLY.<br />
+CHOOSE THE RIGHT DEVICE TO WRITE TO!!!!<br />
+<br />
+1. Open up a terminal<br />
+2. Use the command 'df'<br />
+3. At the very right of the table that is shown, you will see your mountpoint.<br />
+4. Try to recognize where your flash drive is mounted<br />
+5. For example, my flash drive is mounted at /media/flashdrive, to the left, I see the device as /dev/sdb1 (or on OSX, something like this: /dev/disk2s1)<br />
+6. You can also use the command like this 'df -h', this will show you the space total/used/free in human-readable values (8GB) instead of byte count, you should be able to recognize your drive on space alone.<br />
+7. READ THE DISCLAIMER ABOVE THIS SECTION. Be careful. PLEASE! You can and will overwrite your main OS disk (or any other attached device) if you are not 100% sure you have the correct drive. Keep this in mind when using terminal commands.<br />
+8. Use the command 'dd' to copy the raw image to your flash drive, here is how the command breaks down: dd if=/users/username/pathtoyour/imagefile.img of=/dev/disk2<br />
+9. Remember, you need to write the image to the full device, not just a partition. So if your 'flash drive' is /dev/sdb1, you want to use '/dev/sdb' in the 'dd' command. Likewise on OSX, if your drive is '/dev/disk2s1' you want to use '/dev/disk2' alone, without the partition modifier.<br />
+10. Most likely, you will need to use 'sudo' to invoke the dd command, depending on your setup.<br />
+11. You may need to unmount your flash drive to avoid a 'Resource Busy' error message.<br />
+<br />
+These are daily builds, they have not been well tested for quality. Be careful and have fun. If you run into bugs, report them to the ChromiumOS bug tracker: http://groups.google.com/group/chromium-os-bugs?pli=1<span id="goog_1134218525"></span><span id="goog_1134218526"></span><a href="http://draft.blogger.com/"></a><span id="goog_1134218523"></span><span id="goog_1134218524"></span><a href="http://draft.blogger.com/"></a><img src="http://feeds.feedburner.com/~r/TheBlogOfTomWebster/~4/o6GdJpLYiFM" height="1" width="1"/>

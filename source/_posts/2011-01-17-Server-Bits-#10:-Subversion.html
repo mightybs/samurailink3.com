@@ -1,0 +1,67 @@
+---           
+
+layout: post
+
+title: Server-Bits #10: Subversion
+
+date: 2011-01-17 17:42:02 UTC
+
+updated: 2011-01-17 17:42:02 UTC
+
+comments: false
+
+categories: Server Linux Server-Bits Versions
+
+---
+
+
+Subversion! One of the best ways to keep track of versions for code, homework, various essays, you name it. If it changes and you want the ability to roll back changes, Subversion is for you. In reality, Subversion is one of <b>many</b> types of versioning software out there, but its the one we are going to cover in this tutorial. If you're really interested in the alternatives, Google around for: Git, Mercurial, among many other smaller projects.<br />
+<br />
+Why would anyone want to set up a software repository? Easy answer if you're a programmer of any sort. I'm a hobbyist programmer, and I constantly break my own code and projects when trying new things. I wanted an easy way to roll back any changes that I had made, while still retaining a history of some sort. I initially did this by copying different versions of the code into different folders, but this proved to be unmanageable in the long run. At the time, I was using 6 different computers to write my code, depending on which location I was in during that day. Manually copying this folder to a USB stick, then re-syncing the changes became a <b>major</b> hassle. Subversion allows you to create a repository in a folder and commit changes to it. Want to update a particular machine with the latest version of the code? Easy, subversion has an update feature that only pulls down the changes of the file since you last synced. Easy stuff, and I'll show you how to build your own subversion repository.<br />
+<br />
+<br />
+<a name='more'></a><br />
+The very first thing you need to do is install subversion.<br />
+<blockquote><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">sudo apt-get install subversion</span></blockquote>Yea, that easy.<br />
+<br />
+<br />
+Second thing, choose a place where your code will live. This shouldn't be your working directory at all, as you don't really directly interact with the subversion repository. I've made a directory inside my home directory called "SVN", and that's where all my projects live. The project I'm working on is called "Hax", so I'll create the Hax repository.<br />
+<blockquote><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">svnadmin create hax</span></blockquote>Now I have a directory called 'hax' on my system. &nbsp;If you browse to that directory and look around, it appears a little strange. That's because subversion creates a database system of sorts to manage, store, and compress your code. Again, you will not be interacting directly with this folder. You will write code elsewhere and commit (upload) the code to the repository.<br />
+<br />
+Next, you need a username and password to be able to checkout (download) and commit code. Navigate to `your repository`/conf. So, in my example, I'd navigate to 'hax/conf/'. Use a text editor to edit the 'passwd' file. The default file should show you how to enter users. I'll go ahead and create my username and password:<br />
+<blockquote><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">tom = password</span></blockquote><b>NOTE:</b>&nbsp;Since this file contains all of the usernames and passwords to access your repository, make sure only you have access. You don't want people commiting code as you.<br />
+Now, I have a user, tom, and his password is 'password'.<br />
+<br />
+The next file you have to edit is: `repository`/conf/svnserve.conf<br />
+Scroll down until you reach the part of the file that lists:<br />
+<blockquote><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">#anon-access = read<br />
+#auth-access = write</span></blockquote>You want to change this to say:<br />
+<blockquote><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">anon-acces = none<br />
+auth-access = write</span></blockquote>One last line to change, find the line:<br />
+<blockquote><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">#passwoord-db = password</span></blockquote>And change it to:<br />
+<blockquote><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">password-db = password</span></blockquote>The first changes you made told subversion that no one should have anonymous access to your code, and authenticated users should have write access to the repository. The second change you made is to let subversion know that we will indeed be using that password file to store users and passwords.<br />
+<br />
+Now you have successfully configured your subversion repository. The next thing we need to do is get your server publishing your repository so you can access it from anywhere. The command for this is 'svnserve'. You can use 'man svnserve' to see all of the options. The easiest way to get your SVN server up and running is:<br />
+<br />
+<blockquote><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">svnserve -d -r /home/username/path-to-repo</span></blockquote><br />
+The -d option sets svnserve into Daemon mode, so it will accept TCP connections automatically.<br />
+The -r option sets the path you gave as the root of the SVN server.<br />
+<br />
+If you want, you can make one directory to house all of your projects. This way, you can commit code to server.com/project1 and server.com/project2, all by running one instance of svnserve. Experiment to figure out which works best for you. For myself, I have one directory act as the root for svnserve, then all of my projects are then organized by category.<br />
+<br />
+Now... This is how you use subversion to checkout and commit code:<br />
+<br />
+To checkout your code:<br />
+<blockquote><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">svn co svn://hostname.server.com/project1</span></blockquote>To add things to be committed:<br />
+<blockquote><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">svn add filename.txt</span></blockquote>To delete a file (and delete it from the commit):<br />
+<blockquote><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">svn rm filename.txt</span></blockquote>To commit your code to the repository:<br />
+<blockquote><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">svn commit -m "Comment your changes!!"</span></blockquote>Now, a few lessons you need to take away from this:<br />
+<br />
+<ol><li>You must manually add files to be&nbsp;committed. Just&nbsp;committing&nbsp;code won't do anything unless you tell subversion that a file must be included in the commit. You only have to do this once per new file, after that, subversion remembers that this file is to be included in the commit.</li>
+<li>Likewise, if you would like to remove a file and have the repository reflect those changes, you must tell subversion that you are removing the file. Just deleting the file will leave it intact in the repository.</li>
+<li>When you use the commit function, <b>please</b>&nbsp;use the -m flag. This will allow you to comment your changes, this is important because if you ever want to roll back to a previous version, you can look through the svn log and see exactly when you made a particular change. To view this log, use the command '<b><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">svn log</span></b>' when you are in your repository.</li>
+</ol><div>Now you have a basic understanding of subversion and how to set up your server to be a versioning repository. Have fun and happy coding!</div><div><br />
+</div><div>If you want to pull your code into Windows to work on it, commit, and other SVN goodies, use the open source <a href="http://tortoisesvn.tigris.org/">TortoiseSVN</a>, it gives you access to all of the SVN power on your right-click menu. Enjoy!</div><div><br />
+</div><div><span class="Apple-style-span" style="color: #333333; font-family: 'Trebuchet MS', Trebuchet, sans-serif; font-size: 15px; line-height: 20px;"><i>About Server-Bits:</i><br />
+<br />
+If you've ever wanted to get started building a server, right in your own backyard/kitchen/closet/mother's closet/mother's basement, then this is the read for you. Aimed at the not-so-technical-but-willing-to-learn, this will give you everything you need to build that monster-server you've dreamed of.&nbsp;<b>My goal: To give you a working server, for free, that you can use daily.</b></span></div><img src="http://feeds.feedburner.com/~r/TheBlogOfTomWebster/~4/q9bMwN5gDSw" height="1" width="1"/>
