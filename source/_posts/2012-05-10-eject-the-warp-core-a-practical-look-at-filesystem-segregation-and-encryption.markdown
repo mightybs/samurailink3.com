@@ -12,7 +12,7 @@ To get the full experience, open up the speaker notes to read along with what I'
 
 Future considerations (from InfoSec):
 
-tmpfs instead of /tmp
+[tmpfs](http://en.wikipedia.org/wiki/Tmpfs) instead of /tmp
 Find a way to disable direct memory access on the kernel level (firewire and PCI can exploit this)
 
 <iframe src="https://docs.google.com/presentation/d/1ytk9MqE3adNX7-q6zmhNrSFpq2w2pre0orvGADpq7kM/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
