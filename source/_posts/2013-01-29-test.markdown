@@ -1,9 +1,0 @@
----
-layout: post
-title: "Test"
-date: 2013-01-29 06:00
-comments: true
-categories: 
----
-
-This is only a test
