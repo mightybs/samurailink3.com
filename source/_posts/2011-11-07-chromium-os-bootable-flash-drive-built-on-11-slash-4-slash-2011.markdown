@@ -14,4 +14,4 @@ I did notice some driver weirdness on some machines with this build, let me know
 Credits and Utilities:
 To unpack this file, you will need the totally awesome and free unzipping utility: [7zip](http://www.7-zip.org/)
 This pack contains the [Image Writer for Microsoft Windows](https://launchpad.net/win32-image-writer), which is a great, simple way to take or place images onto drives. Give these guys a hand!
-_Instructions are included in a text file in the download!_
+**Instructions are included in a text file in the download!**
