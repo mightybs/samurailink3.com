@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Chromium OS Bootable Flash Drive! (Built on: 11/4/2011)"
-date: 2013-02-06 09:21
+date: 2011-11-07 09:02
 comments: true
 categories: [Chrome OS, Google]
 ---
