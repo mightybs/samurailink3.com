@@ -3,7 +3,7 @@ layout: post
 title: "Ghost in the Wires - A book by Kevin Mitnick"
 date: 2011-09-27 17:30
 comments: true
-categories: [Books, Review]
+categories: [Books, Reviews]
 ---
 
 Just finished reading a wonderful book by Kevin Mitnick, hacker extraordinaire! As some of you may know, Kevin Mitnick was a fugitive hacker who ran for years and taught us all about social engineering, how to effectively use zero-day exploits, but most of all, how hackers need to target people first, computers second. In this book, Kevin is finally able to write about his firsthand experiences running from the law, compromising administrators and systems, and going into some great technical detail at the same time.

@@ -3,7 +3,7 @@ layout: post
 title: "Kodingen"
 date: 2011-10-27 18:00
 comments: true
-categories: [Development]
+categories: [Development, Reviews]
 ---
 
 [{% img center ../../../../../images/2011-10-27-kodingen-1.png %}](../../../../../images/2011-10-27-kodingen-1-full.png)

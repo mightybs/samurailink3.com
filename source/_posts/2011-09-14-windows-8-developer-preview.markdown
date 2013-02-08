@@ -3,7 +3,7 @@ layout: post
 title: "Windows 8 Developer Preview"
 date: 2011-09-14 13:33
 comments: true
-categories: 
+categories: [Microsoft, Reviews]
 ---
 
 [{% img center ../../../../../images/2011-09-14-windows-8-developer-preview-1.png %}](../../../../../images/2011-09-14-windows-8-developer-preview-1-full.png)
