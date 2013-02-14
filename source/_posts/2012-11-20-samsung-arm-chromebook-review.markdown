@@ -3,7 +3,7 @@ layout: post
 title: "Samsung ARM Chromebook Review"
 date: 2012-11-20 06:08
 comments: true
-categories: [Reviews, Chrome OS]
+categories: [Reviews, Chrome OS, Google]
 ---
 
 *Samsung ARM Chromebook Review*
