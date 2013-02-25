@@ -22,4 +22,4 @@ My contribution to this whole project is cloud backups. You can configure `emula
 
 {% gist 5028756 %}
 
-Like I said before, I am planning an entire series related to created your own GameStation, but if you feel like getting started right now, hopefully this gives you a bit to go on. The system isn't perfect, by any means, but it is a decent start to a cheap emulation system.
+Like I said before, I am planning an entire series related to creating your own GameStation, but if you feel like getting started right now, hopefully this gives you a bit to go on. The system isn't perfect, by any means, but it is a decent start to a cheap emulation system.
