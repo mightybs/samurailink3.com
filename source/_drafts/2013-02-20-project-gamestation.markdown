@@ -6,7 +6,7 @@ comments: true
 categories: [Gaming, Projects]
 ---
 
-[{% img center ../../../../../images/2013-02-20-project-gamestation-1-full.jpg 460 250 %}](../../../../../images/2013-02-20-project-gamestation-1.jpg)
+[{% img center ../../../../../images/2013-02-20-project-gamestation-1.jpg %}](../../../../../images/2013-02-20-project-gamestation-1-full.jpg)
 
 Recently, I've been drowning in personal projects, but I feel that one of them is finally to the point where I can start to release information about it. **Project Gamestation** is a [Raspberry Pi](http://www.newark.com/jsp/shoppingCart/shoppingCart.jsp?ICID=Pi-Advanced-Bundle&_requestid=37485) based emulation machine. The vast majority of the code and configuration is incredibly easy to implement thanks to [RetroPie-Setup](https://github.com/petrockblog/RetroPie-Setup), a GitHub project by [PetRockBlog](https://github.com/petrockblog).
 
