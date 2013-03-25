@@ -6,7 +6,7 @@ comments: true
 categories: [Google, News]
 ---
 
-[{% img center  ../../../../../2011-02-01-bing-powered-by-google-stolen-search-results-1.png %}](../../../../../2011-02-01-bing-powered-by-google-stolen-search-results-1-full.png)
+[{% img center  ../../../../../images/2011-02-01-bing-powered-by-google-stolen-search-results-1.png %}](../../../../../images/2011-02-01-bing-powered-by-google-stolen-search-results-1-full.png)
 
 Breaking tech news today! It has been uncovered that Bing has been poaching Google search results! Here are the cliff notes:
 
