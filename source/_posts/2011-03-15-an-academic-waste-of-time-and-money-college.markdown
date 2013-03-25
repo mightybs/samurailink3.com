@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "An Academic Waste of Time and Money: College"
 date: 2011-03-24 14:48

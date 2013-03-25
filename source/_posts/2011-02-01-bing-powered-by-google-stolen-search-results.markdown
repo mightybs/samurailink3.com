@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Bing: Powered by Google - Stolen Search Results"
 date: 2011-02-01 12:42
