@@ -3,7 +3,7 @@ layout: post
 title: "Why the Academic World is a Steaming Pile of Shit (For CS Majors)"
 date: 2011-05-06 20:13
 comments: true
-categories: [Rants, School]
+categories: [Rants, Education]
 ---
 
 Ah, school! Teaching me the most worthless things ever! Check this out, actual comment from one of my programming projects:

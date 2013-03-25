@@ -6,11 +6,11 @@ comments: true
 categories: [Chrome OS, Google]
 ---
 
-[{% img center ../../../../../images/2011-08-15-chrome-os-bootable-flash-drive-built-on-8-slash-9-slash-2011-1.png %}](../../../../../images/2011-08-15-chrome-os-bootable-flash-drive-built-on-8-slash-9-slash-2011-1-full.png)
+[{% img center ../../../../../images/2011-03-29-chrome-os-bootable-flash-drive-built-on-3-slash-28-slash-2011-1.png %}](../../../../../images/2011-03-29-chrome-os-bootable-flash-drive-built-on-3-slash-28-slash-2011-1-full.png)
 
 Well, here it is again! Another build, this one a week later. I've heard some reports that the Chrome Web Apps weren't working quite perfectly on some machines, that's the risk when you're running daily-builds of an operating system. This is freshly built as of yesterday, and I've update the instructions to include how to create a bootable Chrome OS flash drive in both Linux and Mac OSX. As usual, the Windows instructions are still there as always. After the jump, I'll include a copy/paste of the Instructions.txt file for your convenience. Have fun and let me know what you think!
 
-[New Version Here]()
+[New Version Here](../../../../../blog/2011/11/07/chromium-os-bootable-flash-drive-built-on-11-slash-4-slash-2011/)
 
 Credits and Utilities:
 
