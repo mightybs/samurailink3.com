@@ -19,7 +19,7 @@ Breaking tech news today! It has been uncovered that Bing has been poaching Goog
 
 So what exactly does this mean for Bing? Microsoft is holding a search event later today (which is why Google could be unveiling this now), and [Matt Cutts is on a panel with them later today](http://twitter.com/mattcutts/status/32459370511994880), so I expect we will hear more then.
 
-The original tweet is here: http://twitter.com/mattcutts/status/32459370511994880
+The original tweet is here: [http://twitter.com/mattcutts/status/32459370511994880](http://twitter.com/mattcutts/status/32459370511994880)
 
 Check out the very thorough and awesome analysis of the situation by [Search Engine Land](http://searchengineland.com/google-bing-is-cheating-copying-our-search-results-62914).
 
