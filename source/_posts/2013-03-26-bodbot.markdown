@@ -1,0 +1,19 @@
+---
+layout: post
+title: "BodBot"
+date: 2013-03-26 04:00
+comments: true
+categories: [Reviews]
+---
+
+[{% img center ../../../../../images/2013-03-26-bodbot-1.png %}](../../../../../images/2013-03-26-bodbot-1-full.png)
+
+For the longest time, I had been looking for a way to get started working out, but I honestly had no idea where to get started. Without paying for a 24-hour gym pass, my workout options were limited to things I could do at home (especially in the [wee hours of the morning](/blog/2013/03/25/new-schedule/)). I needed a workout tailored to my schedule, my goals, and with my equipment. I spent a little bit searching around for a website to help me plan everything out, including instructions, videos, and scheduling assistance.
+
+Insert [BodBot](http://www.bodbot.com/) here. The first thing you see when loading up the site is simple gender-selection form, which gives way to the goal form. By far, this is the most impressive feature of this website. Whether you want to gain muscle, lose fat, or just get healthy, BodBot has options for you and will tailor your workout specifically to your goals. Then it will ask whether you are working out at the gym or at home. You can use BodBot as a gym companion, but I personally use it at home. Then BodBot will ask if you have workout experience and how hard you would like to work out each session. I left these set to the middle-most values. Then BodBot offers to manage your schedule for you, or if you'd like, you can manually manage your workout days. I ended up letting BodBot tell me when to get off the couch and put down the chips.
+
+Lets get the not-so-great out of the way: BodBot is in alpha, and it shows right now. It isn't really a detriment, but I want you to know what you're getting into. Some exercises don't have great pictures or descriptions, quite a few don't have videos associated with them. The mobile app experience on Android feels like little-more than a slow webpage with a homescreen icon. The mobile app experience could be much better, but it gets the job done. The main website, however, has enough features and staying power to keep me coming back each day for my workout routine.
+
+BodBot also contains a lot of social features, so you can challenge and encourage your friends. The community seems nice enough, but it becomes a mostly-forgotten feature after a while. To me, the social aspect of working out has never had a big impact, but I realize I may be in the minority on this point.
+
+BodBot feels like a fantastic start to what will become a massive project. With an improved mobile presence and some more polished design, I have no doubts BodBot will become a big part in online workout planning and management. Try it out today!
