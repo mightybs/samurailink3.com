@@ -54,4 +54,4 @@ deb-src http://ftp.us.debian.org/debian/ testing-updates main contrib non-free
 
 If you look, all that changed is the word `squeeze` to the word `testing`. Run a find-and-replace in your favorite text editor to make the switch. If you're really living on the edge, you can make the switch to the `unstable` branch, but I hear things break a bit more over there.
 
-[Living with Eternal Upgrades - Debian Reference Guide](http://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_life_with_eternal_upgrades)
+[Life with Eternal Upgrades - Debian Reference Guide](http://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_life_with_eternal_upgrades)
