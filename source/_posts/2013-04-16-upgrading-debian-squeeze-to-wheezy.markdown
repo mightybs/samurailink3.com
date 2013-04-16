@@ -6,7 +6,7 @@ comments: true
 categories: [Tutorials]
 ---
 
-Since switching to [Debian](http://samurailink3.com/blog/2013/04/14/distribution-pilgrimage/) for the majority of my computing needs, I started looking for a way to get more up-to-date packages. The stability is nice, but I'm willing to live with some bugs if it means that my desktop can have more frequent updates. Turns out, all I need to do is change a few words in my `/etc/apt/source.list` file, and the system is upgrade with a simple `apt-get update` and `apt-get dist-upgrade`. The usual disclaimer applies, using software in `testing` or `unstable` could be dangerous and cause you to lose data / get divorced / start world war 3 (in that order).
+Since [switching to Debian](http://samurailink3.com/blog/2013/04/14/distribution-pilgrimage/) for the majority of my computing needs, I started looking for a way to get more up-to-date packages. The stability is nice, but I'm willing to live with some bugs if it means that my desktop can have more frequent updates. Turns out, all I need to do is change a few words in my `/etc/apt/source.list` file, and the system is upgrade with a simple `apt-get update` and `apt-get dist-upgrade`. The usual disclaimer applies, using software in `testing` or `unstable` could be dangerous and cause you to lose data / get divorced / start world war 3 (in that order).
 
 Here's my stable `/etc/apt/source.list` file before:
 
