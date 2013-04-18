@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cloudbound: The CR48 (Part 2)"
-date: 2013-04-18 15:08
+date: 2010-12-21 10:28
 comments: true
 categories: [Google, Chrome OS]
 ---
