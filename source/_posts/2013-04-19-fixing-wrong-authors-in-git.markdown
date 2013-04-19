@@ -20,7 +20,7 @@ fd481a0
 3a4a67f
 ```
 
-Now, take a look at about how many commits you've made, then rebase a stupidly-high number of commits, like this: `git rebase HEAD~120`. Now you'll see a big list of commits and one-line messages. Search through and find the commits you need to fix. Under each *need-to-fix* commit, put this line `exec git commit --amend --author="New Author Name <email@address.com>" -C HEAD`, but change that line to your correct name and email address. It should look something like this:
+Now, take a look at about how many commits you've made, then rebase a stupidly-high number of commits, like this: `git rebase -i HEAD~120`. Now you'll see a big list of commits and one-line messages. Search through and find the commits you need to fix. Under each *need-to-fix* commit, put this line `exec git commit --amend --author="New Author Name <email@address.com>" -C HEAD`, but change that line to your correct name and email address. It should look something like this:
 
 ```
 pick 8388019 Resized favicon to 16x16
