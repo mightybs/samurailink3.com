@@ -16,11 +16,11 @@ I decided on [Rackspace](http://www.rackspace.com/) for a few different reasons,
 
 The first step is to get yourself a username over at [Rackspace.com](http://www.rackspace.com). Next, start up a new cloud server by clicking the `Create Server` button:
 
-$cloud server startup
+[{% img center ../../../../../images/2013-04-23-virtual-web-server-part-1-rackspace-1.png %}](../../../../../images/2013-04-23-virtual-web-server-part-1-rackspace-1-full.png)
 
 For this server, we're going to use Debian 6 (or 7 if its out now) and 512MB of RAM. Honestly, I'm running a very thin server, it isn't very powerful, and it works just fine. If your site has a million hits an hour, you probably shouldn't be following this tutorial. For everyone else, this works just fine.
 
-$ server launch options
+[{% img center ../../../../../images/2013-04-23-virtual-web-server-part-1-rackspace-2.png %}](../../../../../images/2013-04-23-virtual-web-server-part-1-rackspace-2-full.png)
 
 Go ahead and copy the password that's shown and log in via SSH. You'll need to log in as `root@ip-address-here`. Use the command `passwd` to set a new password. Make this long, complicated, and memorable, these are your keys to the castle, it would be a shame if [something happened to it](http://25.media.tumblr.com/tumblr_lzk228Lb0Z1rnxi5bo1_500.gif).
 
