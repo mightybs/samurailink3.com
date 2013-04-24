@@ -8,8 +8,7 @@ categories: [Tutorials]
 
 The next thing you should do is enable automatic security updates. No sense in having your server get hacked because you were too busy to update it. Luckily, in most systems, this is pretty easy.
 
-First, install `unattended-upgrades` like this:
-    apt-get install unattended-upgrades
+First, install `unattended-upgrades` like this: `apt-get install unattended-upgrades`
 Then configure your settings with `nano /etc/apt/apt.conf.d/50unattended-upgrades`. Depending on the system, I usually only enable automatic security updates, but on development systems, its nice to have everything update as well. Debian Stable doesn't change all that much, but there's always the risk of breaking things. The configuration file below only has security updates enabled.
 
 {% gist 5448625 %}
