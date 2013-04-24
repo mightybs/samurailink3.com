@@ -30,7 +30,7 @@ And now you have a public server, ready to build things on. In the next posts of
 
 1. Getting a Server _- You are here_
 2. [Getting a Domain Name](http://samurailink3.com/blog/2013/04/23/virtual-web-server-part-2-hover/)
-3. Automatic Updates
+3. [Automatic Updates](http://samurailink3.com/blog/2013/04/23/virtual-web-server-part-3-automatic-updates-in-debian/)
 4. Apache2 Setup
 5. PHP and MySQL Setup
 6. ProFTPd Setup
