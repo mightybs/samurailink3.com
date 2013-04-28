@@ -19,7 +19,7 @@ Now that you have a domain name, we have to start configuring our server, then m
 1. [Getting a Server](http://samurailink3.com/blog/2013/04/23/virtual-web-server-part-1-rackspace/)
 2. Getting a Domain Name _- You are here_
 3. [Automatic Updates](http://samurailink3.com/blog/2013/04/23/virtual-web-server-part-3-automatic-updates-in-debian/)
-4. Apache2 Setup
+4. [Apache2 Setup](http://samurailink3.com/blog/2013/04/28/virtual-web-server-part-4-apache-web-server/)
 5. PHP and MySQL Setup
 6. ProFTPd Setup
 7. WordPress Setup
