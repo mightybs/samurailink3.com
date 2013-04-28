@@ -29,7 +29,7 @@ Check out the screenshots below to look at my setup:
 [{% img center ../../../../../images/2013-04-28-virtual-web-server-part-4-apache-web-server-1.png %}](../../../../../images/2013-04-28-virtual-web-server-part-4-apache-web-server-1-full.png)
 [{% img center ../../../../../images/2013-04-28-virtual-web-server-part-4-apache-web-server-2.png %}](../../../../../images/2013-04-28-virtual-web-server-part-4-apache-web-server-2-full.png)
 
-Next, lets get apache installed with `apt-get install apache2`. Once this is installed, we will need to disable the default hosting profile, as it will mess up our configuration later on. Do this with a2dissite default`.
+Next, lets get apache installed with `apt-get install apache2`. Once this is installed, we will need to disable the default hosting profile, as it will mess up our configuration later on. Do this with `a2dissite default`.
 
 Ok, now we'll enable the re-write module with `a2enmod rewrite`. We're doing this because we want our naked domain `example.com` to point to `www.example.com` automatically. Believe it or not, `example.com` is an entirely different site than `www.example.com`. We'll set up a rewrite rule now to make that happen.
 
