@@ -24,7 +24,7 @@ Record: CNAME
 Detail: example.com
 ```
 
-Check out the screenshots below to check out my setup:
+Check out the screenshots below to look at my setup:
 
 [{% img center ../../../../../images/2013-04-28-virtual-web-server-part-4-apache-web-server-1.png %}](../../../../../images/2013-04-28-virtual-web-server-part-4-apache-web-server-1-full.png)
 [{% img center ../../../../../images/2013-04-28-virtual-web-server-part-4-apache-web-server-2.png %}](../../../../../images/2013-04-28-virtual-web-server-part-4-apache-web-server-2-full.png)
