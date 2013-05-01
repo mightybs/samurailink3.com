@@ -96,7 +96,7 @@ footer: true
 
 ### 2007 - 2008:
 
-#### Operating Systems Clas Teacher's Assistant
+#### Operating Systems Class Teacher's Assistant
 
 * Maintain a punctual, current, and accurate grade sheet
 * Provide assistance and troubleshoot issues in lab setting
