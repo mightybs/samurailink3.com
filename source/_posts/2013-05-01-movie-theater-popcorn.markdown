@@ -17,8 +17,11 @@ Aside from all the tech, I can cook occasionally. I get fixated on projects and 
 ### Ingredients:
 
 [1 Whirly-Pop Stovetop Popcorn Maker](http://www.amazon.com/gp/product/B00004SU35/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00004SU35&linkCode=as2&tag=thbloftowe-20)
+
 [¼ Teaspoon Box Flavicol Popcorn Seasoning Salt](http://www.amazon.com/gp/product/B004W8LT10/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B004W8LT10&linkCode=as2&tag=thbloftowe-20)
+
 [1 Squirt Bottle](http://www.amazon.com/gp/product/B000QJBNII/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000QJBNII&linkCode=as2&tag=thbloftowe-20) of [Yellow-Colored Coconut Oil](http://www.amazon.com/gp/product/B003C4UDEY/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003C4UDEY&linkCode=as2&tag=thbloftowe-20)
+
 [½ Cup of Yellow Corn Kernels](http://www.amazon.com/gp/product/B002YLGA0W/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B002YLGA0W&linkCode=as2&tag=thbloftowe-20)
 
 ### Directions:
@@ -50,8 +53,11 @@ Enjoy!
 ### Ingredients:
 
 [1 Whirly-Pop Stovetop Popcorn Maker](http://www.amazon.com/gp/product/B00004SU35/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00004SU35&linkCode=as2&tag=thbloftowe-20)
+
 [½ Cup of Yellow Corn Kernels](http://www.amazon.com/gp/product/B002YLGA0W/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B002YLGA0W&linkCode=as2&tag=thbloftowe-20)
+
 [6 tablespoons of Canola Oil](http://www.amazon.com/gp/product/B007CD12GO/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007CD12GO&linkCode=as2&tag=thbloftowe-20)
+
 [½ Cup of Glaze Pop Caramel Corn Popcorn Flavoring](http://www.amazon.com/gp/product/B00017LEZM/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00017LEZM&linkCode=as2&tag=thbloftowe-20)
 
 ### Directions:
