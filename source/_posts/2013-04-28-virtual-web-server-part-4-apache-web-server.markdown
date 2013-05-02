@@ -47,11 +47,11 @@ As always, if you feel something could be better or fixed up, [let me know](http
 
 **Other posts in this series:**
 
-1. [Getting a Server](http://samurailink3.com/blog/2013/04/23/virtual-web-server-part-1-rackspace/)
-2. [Getting a Domain Name](http://samurailink3.com/blog/2013/04/23/virtual-web-server-part-2-hover/)
-3. [Automatic Updates](http://samurailink3.com/blog/2013/04/23/virtual-web-server-part-3-automatic-updates-in-debian/)
+1. [Getting a Server](../../../../2013/04/23/virtual-web-server-part-1-rackspace/)
+2. [Getting a Domain Name](../../../../2013/04/23/virtual-web-server-part-2-hover/)
+3. [Automatic Updates](../../../../2013/04/23/virtual-web-server-part-3-automatic-updates-in-debian/)
 4. Apache2 Setup _- You are here_
-5. [PHP and MySQL Setup](http://samurailink3.com/blog/2013/05/02/virtual-web-server-part-5-php-and-mysql-setup/)
+5. [PHP and MySQL Setup](../../../../2013/05/02/virtual-web-server-part-5-php-and-mysql-setup/)
 6. ProFTPd Setup
 7. WordPress Setup
 8. RVM Setup
