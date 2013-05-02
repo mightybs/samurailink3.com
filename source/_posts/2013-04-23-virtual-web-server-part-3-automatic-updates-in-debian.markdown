@@ -21,7 +21,7 @@ Go ahead and run `apt-get update` and `apt-get upgrade` to bring your system com
 2. [Getting a Domain Name](http://samurailink3.com/blog/2013/04/23/virtual-web-server-part-2-hover/)
 3. Automatic Updates _- You are here_
 4. [Apache2 Setup](http://samurailink3.com/blog/2013/04/28/virtual-web-server-part-4-apache-web-server/)
-5. PHP and MySQL Setup
+5. [PHP and MySQL Setup](http://samurailink3.com/blog/2013/05/02/virtual-web-server-part-5-php-and-mysql-setup/)
 6. ProFTPd Setup
 7. WordPress Setup
 8. RVM Setup
