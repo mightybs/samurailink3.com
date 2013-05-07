@@ -3,7 +3,7 @@ layout: post
 title: "New Blog Pages"
 date: 2013-04-26 13:27
 comments: true
-categories: 
+categories: [News]
 ---
 
 Just in case you weren't paying attention to the sidebar, I've added some great new content to my blog over the past few weeks.
