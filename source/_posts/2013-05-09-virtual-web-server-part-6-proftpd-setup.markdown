@@ -37,7 +37,7 @@ Now your users can push and pull files to set up their websites.
 4. [Apache2 Setup](/blog/2013/04/28/virtual-web-server-part-4-apache-web-server/)
 5. [PHP and MySQL Setup](/blog/2013/05/02/virtual-web-server-part-5-php-and-mysql-setup/)
 6. ProFTPd Setup _- You are here_
-7. WordPress Setup
+7. [WordPress Setup](/blog/2013/05/09/virtual-web-server-part-7-wordpress-setup/)
 8. RVM Setup
 9. Git Setup
 10. OctoPress Setup
