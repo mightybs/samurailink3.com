@@ -10,18 +10,18 @@ Now that you have a user and are able to upload files, lets get a [WordPress](ht
 
 Head over to the site, you should see that you need to create a configuration file. If you don't see this, and see an error message instead, make sure you have `php5-mysql` installed. You can do this with `apt-get install php5-mysql` then `service apache2 restart`. For the configuration file, we'll need to first get our database details. This poses somewhat of a problem, though, we don't have a database currently. Log onto your server's root account via SSH, then log onto your MySQL instance with `mysql -u root -p` and enter your MySQL password (this should be different from your user password). Follow along with the commands below to create a new database and authorizations so we can finish the WordPress setup (all commands should be run from the MySQL command prompt):
 
-Create a new database: `CREATE DATABASE exampledatabase;`
-Create a new MySQL User: `GRANT ALL PRIVILEGES ON exampledatabase.* TO "exampleuser"@"localhost" IDENTIFIED BY "MakeAComplexPasswordHere";`
-Refresh permissions: `FLUSH PRIVILEGES`
-Exit the console: `exit`
+Create a new database: `CREATE DATABASE exampledatabase;`  
+Create a new MySQL User: `GRANT ALL PRIVILEGES ON exampledatabase.* TO "exampleuser"@"localhost" IDENTIFIED BY "MakeAComplexPasswordHere";`  
+Refresh permissions: `FLUSH PRIVILEGES`  
+Exit the console: `exit`  
 
 Click `Let's go!` on the WordPress wizard and fill in the details below:
 
-Database Name: `exampledatabase`
-User Name: `exampleuser`
-Password: `YourComplexPasswordHere`
-Database Host: `localhost`
-Table Prefix: `wp_`
+Database Name: `exampledatabase`  
+User Name: `exampleuser`  
+Password: `YourComplexPasswordHere`  
+Database Host: `localhost`  
+Table Prefix: `wp_`  
 
 WordPress should then generate a text box with a lot of configuration data in it. Copy all of this text into a file named `wp-config.php`, then upload it to the root of your web directory via FTP.
 
