@@ -22,7 +22,7 @@ Go ahead and run `apt-get update` and `apt-get upgrade` to bring your system com
 3. Automatic Updates _- You are here_
 4. [Apache2 Setup](../../../../2013/04/28/virtual-web-server-part-4-apache-web-server/)
 5. [PHP and MySQL Setup](../../../../2013/05/02/virtual-web-server-part-5-php-and-mysql-setup/)
-6. ProFTPd Setup
+6. [ProFTPd Setup](../../../../2013/05/09/virtual-web-server-part-6-proftpd-setup/)
 7. WordPress Setup
 8. RVM Setup
 9. Git Setup
