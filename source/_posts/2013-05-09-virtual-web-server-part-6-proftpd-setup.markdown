@@ -31,11 +31,11 @@ Now your users can push and pull files to set up their websites.
 
 **Other posts in this series:**
 
-1. [Getting a Server](../../../../2013/04/23/virtual-web-server-part-1-rackspace/)
-2. [Getting a Domain Name](../../../../2013/04/23/virtual-web-server-part-2-hover/)
-3. [Automatic Updates](../../../../2013/04/23/virtual-web-server-part-3-automatic-updates-in-debian/)
-4. [Apache2 Setup](../../../../2013/04/28/virtual-web-server-part-4-apache-web-server/)
-5. [PHP and MySQL Setup](../../../../2013/05/02/virtual-web-server-part-5-php-and-mysql-setup/)
+1. [Getting a Server](/blog/2013/04/23/virtual-web-server-part-1-rackspace/)
+2. [Getting a Domain Name](/blog/2013/04/23/virtual-web-server-part-2-hover/)
+3. [Automatic Updates](/blog/2013/04/23/virtual-web-server-part-3-automatic-updates-in-debian/)
+4. [Apache2 Setup](/blog/2013/04/28/virtual-web-server-part-4-apache-web-server/)
+5. [PHP and MySQL Setup](/blog/2013/05/02/virtual-web-server-part-5-php-and-mysql-setup/)
 6. ProFTPd Setup _- You are here_
 7. WordPress Setup
 8. RVM Setup

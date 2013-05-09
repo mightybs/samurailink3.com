@@ -17,12 +17,12 @@ Go ahead and run `apt-get update` and `apt-get upgrade` to bring your system com
 
 **Other posts in this series:**
 
-1. [Getting a Server](../../../../2013/04/23/virtual-web-server-part-1-rackspace/)
-2. [Getting a Domain Name](../../../../2013/04/23/virtual-web-server-part-2-hover/)
+1. [Getting a Server](/blog/2013/04/23/virtual-web-server-part-1-rackspace/)
+2. [Getting a Domain Name](/blog/2013/04/23/virtual-web-server-part-2-hover/)
 3. Automatic Updates _- You are here_
-4. [Apache2 Setup](../../../../2013/04/28/virtual-web-server-part-4-apache-web-server/)
-5. [PHP and MySQL Setup](../../../../2013/05/02/virtual-web-server-part-5-php-and-mysql-setup/)
-6. [ProFTPd Setup](../../../../2013/05/09/virtual-web-server-part-6-proftpd-setup/)
+4. [Apache2 Setup](/blog/2013/04/28/virtual-web-server-part-4-apache-web-server/)
+5. [PHP and MySQL Setup](/blog/2013/05/02/virtual-web-server-part-5-php-and-mysql-setup/)
+6. [ProFTPd Setup](/blog/2013/05/09/virtual-web-server-part-6-proftpd-setup/)
 7. WordPress Setup
 8. RVM Setup
 9. Git Setup
