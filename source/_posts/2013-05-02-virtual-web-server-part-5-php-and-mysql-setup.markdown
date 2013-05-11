@@ -33,7 +33,7 @@ If you see that, you're done here. Next, we'll set up FTP accounts, then get Wor
 5. PHP and MySQL Setup _- You are here_
 6. [ProFTPd Setup](/blog/2013/05/09/virtual-web-server-part-6-proftpd-setup/)
 7. [WordPress Setup](/blog/2013/05/09/virtual-web-server-part-7-wordpress-setup/)
-8. RVM Setup
+8. [RVM Setup](/blog/2013/05/11/virtual-web-server-part-8-rvm-setup/)
 9. Git Setup
 10. OctoPress Setup
 11. Rackspace Backups

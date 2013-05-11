@@ -23,7 +23,7 @@ Now that you have a domain name, we have to start configuring our server, then m
 5. [PHP and MySQL Setup](/blog/2013/05/02/virtual-web-server-part-5-php-and-mysql-setup/)
 6. [ProFTPd Setup](/blog/2013/05/09/virtual-web-server-part-6-proftpd-setup/)
 7. [WordPress Setup](/blog/2013/05/09/virtual-web-server-part-7-wordpress-setup/)
-8. RVM Setup
+8. [RVM Setup](/blog/2013/05/11/virtual-web-server-part-8-rvm-setup/)
 9. Git Setup
 10. OctoPress Setup
 11. Rackspace Backups
