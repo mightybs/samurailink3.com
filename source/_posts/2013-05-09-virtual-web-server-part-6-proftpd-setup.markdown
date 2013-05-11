@@ -39,6 +39,6 @@ Now your users can push and pull files to set up their websites.
 6. ProFTPd Setup _- You are here_
 7. [WordPress Setup](/blog/2013/05/09/virtual-web-server-part-7-wordpress-setup/)
 8. [RVM Setup](/blog/2013/05/11/virtual-web-server-part-8-rvm-setup/)
-9. Git Setup
+9. [Git Setup](/blog/2013/05/11/virtual-web-server-part-9-git-setup/)
 10. OctoPress Setup
 11. Rackspace Backups

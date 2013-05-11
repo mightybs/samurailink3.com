@@ -22,6 +22,6 @@ Now you have Ruby and Rails ready to do your bidding.
 6. [ProFTPd Setup](/blog/2013/05/09/virtual-web-server-part-6-proftpd-setup/)
 7. [WordPress Setup](/blog/2013/05/09/virtual-web-server-part-7-wordpress-setup/)
 8. RVM Setup _- You are here_
-9. Git Setup
+9. [Git Setup](/blog/2013/05/11/virtual-web-server-part-9-git-setup/)
 10. OctoPress Setup
 11. Rackspace Backups
