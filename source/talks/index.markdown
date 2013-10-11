@@ -20,4 +20,12 @@ Interfaces suck and security applications are among some of the worst offenders.
 
 # Podcast Appearances
 
-coming soon!
+## InThirty
+
+### [inThirty 98 – Looking Through the PRISM](http://inthirty.net/2013/06/inthirty-98-looking-through-the-prism/)
+
+In this podcast, I was asked to join in on a discussion about PRISM and what it means for computer users everywhere.
+
+### [inThirty 111 – Encrypted SEO](http://inthirty.net/2013/09/encrypted-seo-inthirty-111/)
+
+Google switched ALL of their search traffic to SSL. Does this really protect anyone from the prying eyes of the NSA? The inThirty gang bring me on to discuss the technical details of the change.
