@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "CV"
-date: 2013-04-26 09:32
+date: 2013-10-30 06:36
 comments: false
 sharing: true
 footer: true
@@ -36,6 +36,14 @@ footer: true
 * Astaro Security Gateway Deployment and Management
 * Network engineering
 * Web technology engineering (web presence, DNS management, hosting server setup)
+
+### 2013 - Present:
+
+#### Board Member of OSIF ([Ohio Information Security Forum](http://www.ohioinfosec.org/))
+
+* Acquire speakers/presenters
+* Help build new website
+* Help with Google Apps deployment and configuration
 
 ### 2010 - Present:
 
@@ -81,6 +89,11 @@ footer: true
 * Coordinate team of developers
 * Configure and maintain SNMP metric systems (MRTG/Cacti)
 * Configure and maintain latency metric systems (Smokeping)
+* Create standard Debian Linux server deployment
+    * Move old servers to new Debian standard
+* Train employees on the use of Linux Desktops and Servers
+    * Work with student to troubleshoot issues and answer questions
+    * Work with coworkers to develop training regime and additional curriculum
 
 ### 2008 - 2010:
 
