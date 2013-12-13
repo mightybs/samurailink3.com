@@ -20,7 +20,18 @@ Interfaces suck and security applications are among some of the worst offenders.
 
 # Podcast Appearances
 
-## InThirty
+## inSecurity
+
+I co-host the [inSecurity](http://insecurityshow.com) podcast with [Chaim Cohen](http://chaimtime.com/) [(+ChaimCohen)](https://plus.google.com/+ChaimCohen). It's a security show for normal people about how to protect yourself online, security devices, news, and more. We record live Wednesday evenings (usually around 8PM) and you can catch our videos and live recordings on [YouTube](http://www.youtube.com/user/inSecurityShow). We offer MP3 download on our [website](http://insecurityshow.com) or via our [RSS Feed (part of the inThirty network)](http://feeds.feedburner.com/inThirty).
+
+  * [Website](http://insecurityshow.com)
+  * [YouTube](http://www.youtube.com/user/inSecurityShow)
+  * [Google+](https://plus.google.com/b/104819971466235925477/104819971466235925477/posts)
+  * [RSS](http://feeds.feedburner.com/inThirty)
+
+## inThirty
+
+Sometimes I join the [inThirty](http://inthirty.net/) team to talk about popular security news or tech trends.
 
 ### [inThirty 98 – Looking Through the PRISM](http://inthirty.net/2013/06/inthirty-98-looking-through-the-prism/)
 
