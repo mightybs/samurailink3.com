@@ -18,6 +18,12 @@ I wanted to hack my CR48 and make it a truly secure box. Secure in the way that 
 
 Interfaces suck and security applications are among some of the worst offenders. In this talk, I dive into various security program interfaces, what make them bad (and good, in a few cases), and what lessons we can learn to make them better.
 
+## [Salting your Hashes: Modern Password Storage](/talks/salting-your-hashes/) - 2013-12-12
+
+Just a quick presentation for the Ohio InfoSec Forum holiday meeting.
+
+Writing a web app? Storing user passwords? Don't ever store them in plain text, you already know this. But do you know how to securely hash them? Here's a very basic look at salted hashes and how they improve security.
+
 # Podcast Appearances
 
 ## inSecurity
