@@ -30,5 +30,5 @@ I made the slide content, used a stock theme from [Google Drive Presentations](h
 
 **Author:** Tom "SamuraiLink3" Webster
 
-**License:** [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)
+**License:** [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
 
