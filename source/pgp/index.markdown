@@ -6,9 +6,13 @@ footer: false
 sharing: false
 ---
 
-You may verify these keys by using the free software GPG. You may download GPG [here](http://www.gnupg.org/). For Windows clients, I recommend [GPG4Win](http://www.gpg4win.org/). My key is valid for 5 years, when it expires, I will add the new key here and move the old one to an archive page.
+This page contains my personal and professional PGP public keys. You can always check these against the keys found at [pgp.mit.edu](http://pgp.mit.edu). In general, the keys are valid for 5 years and when one expires, it will be moved to an archive page. You may verify these keys by using the free software GPG. You may download GPG [here](http://www.gnupg.org/). For Windows clients, I recommend [GPG4Win](http://www.gpg4win.org/).
 
 Feel free to verify any signed content I post, including code. Sensitive code will be signed with this key. If you'd like to send me any sensitive information/documents, feel free to shoot me your public key and an encrypted email at [samurailink3@gmail.com](mailto:samurailink3@gmail.com).
+
+<a href="#Key_Personal"><h2 id="Key_Personal">Personal Email Key</h2></a>
+
+You can also get this key at [MIT's PGP Server - Personal Email Key](http://pgp.mit.edu/pks/lookup?op=get&search=0x6442DF0A14BA4EFD).
 
     Key ID: 0x14BA4EFD
     Key Type: RSA
@@ -68,4 +72,68 @@ Feel free to verify any signed content I post, including code. Sensitive code wi
     zIiJEvjm8FfJFiLe1ym+ibu0z5c9vFz4Fhc3NOz07dofEIMQEDyXzchOxwB5N//k
     eU427oKr8RQeDDN0eudbrhw24cjLsOGlWBpvd/+5Eauo35q2
     =mmY8
+    -----END PGP PUBLIC KEY BLOCK-----
+
+<a href="#Key_OISF"><h2 id="Key_OISF">Ohio InfoSec Key</h2></a>
+
+You can also get this key at [MIT's PGP Server - Ohio InfoSec Key](http://pgp.mit.edu/pks/lookup?op=get&search=0xE15BA4A95B2A5CFE).
+
+    Key ID: 0x5B2A5CFE
+    Key Type: RSA
+    Expires: 2019-01-29
+    Key Size: 4096/4096
+    Fingerprint: 99EE 5ED7 5998 4D3C 1F6B 5B72 E15B A4A9 5B2A 5CFE
+    UserID: Tom Webster (Ohio InfoSec Email Key) <tom.webster@ohioinfosec.org>
+
+    -----BEGIN PGP PUBLIC KEY BLOCK-----
+    Version: GnuPG v1
+
+    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
+    =wg25
     -----END PGP PUBLIC KEY BLOCK-----
