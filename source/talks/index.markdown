@@ -24,6 +24,10 @@ Just a quick presentation for the Ohio InfoSec Forum holiday meeting.
 
 Writing a web app? Storing user passwords? Don't ever store them in plain text, you already know this. But do you know how to securely hash them? Here's a very basic look at salted hashes and how they improve security.
 
+## [Hacking People: No Mask Required](/talks/hacking-people/) - 2014-02-13
+
+There has been yet another high-value Twitter account taken over through social engineering. I take a tour through a couple well-known social engineers, the hacks of [Mat Honan](http://www.wired.com/gadgetlab/2012/08/apple-amazon-mat-honan-hacking/all/) and [Naoki Hiroshima](https://medium.com/cyber-security/24eb09e026dd), and some lessons we can walk away with.
+
 # Podcast Appearances
 
 ## inSecurity
