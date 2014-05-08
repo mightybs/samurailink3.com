@@ -28,15 +28,19 @@ Writing a web app? Storing user passwords? Don't ever store them in plain text, 
 
 There has been yet another high-value Twitter account taken over through social engineering. I take a tour through a couple well-known social engineers, the hacks of [Mat Honan](http://www.wired.com/gadgetlab/2012/08/apple-amazon-mat-honan-hacking/all/) and [Naoki Hiroshima](https://medium.com/cyber-security/24eb09e026dd), and some lessons we can walk away with.
 
+## [Modern Times: Passwords](/talks/modern-times/) - 2014-05-08
+
+With the release of Stanford's new password requirements, we should all start re-thinking the modern password, what we're up against, and how we can keep our users cooperative.
+
 # Podcast Appearances
 
-## inSecurity
+## Security:inThirty
 
-I co-host the [inSecurity](http://insecurityshow.com) podcast with [Chaim Cohen](http://chaimtime.com/) [(+ChaimCohen)](https://plus.google.com/+ChaimCohen). It's a security show for normal people about how to protect yourself online, security devices, news, and more. We record live Wednesday evenings (usually around 8PM) and you can catch our videos and live recordings on [YouTube](http://www.youtube.com/user/inSecurityShow). We offer MP3 download on our [website](http://insecurityshow.com) or via our [RSS Feed (part of the inThirty network)](http://feeds.feedburner.com/inThirty).
+I co-host the [Security:inThirty](http://inthirty.net/category/insecurity/) podcast with [Chaim Cohen](http://chaimtime.com/) [(+ChaimCohen)](https://plus.google.com/+ChaimCohen). It's a security show for normal people about how to protect yourself online, security devices, news, and more. We record live Wednesday evenings (usually around 8PM) and you can catch our videos and live recordings on [YouTube](https://www.youtube.com/user/securityinthirty). We offer MP3 download on our [website](http://inthirty.net/category/insecurity/) or via our [RSS Feed (part of the inThirty network)](http://feeds.feedburner.com/inThirty).
 
-  * [Website](http://insecurityshow.com)
-  * [YouTube](http://www.youtube.com/user/inSecurityShow)
-  * [Google+](https://plus.google.com/b/104819971466235925477/104819971466235925477/posts)
+  * [Website](http://inthirty.net/category/insecurity/)
+  * [YouTube](https://www.youtube.com/user/securityinthirty)
+  * [Google+](https://plus.google.com/101747680447336088593/posts)
   * [RSS](http://feeds.feedburner.com/inThirty)
 
 ## inThirty
