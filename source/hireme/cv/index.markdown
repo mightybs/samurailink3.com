@@ -27,6 +27,7 @@ footer: true
 * Internet presence consultant
 * Website set up and configuration
 * Web site design consultant
+* Web app development and consultation
 * Email and domain configuration
 * Amazon EC2 Deployment and Configuration
 * RackSpace Deployment and Configuration
@@ -44,12 +45,17 @@ footer: true
 * Acquire speakers/presenters
 * Help build new website
 * Help with Google Apps deployment and configuration
+* Acquire sponsors
+* Present at meetings and conferences
 
 ### 2010 - Present:
 
 #### IT Engineer for BWIgroup
 
 * Network and security engineer. Helped craft BWI security policy and implementation
+* Lead web app developer (PHP, Ruby on Rails)
+    * Design, code, implement business web apps, both internal and external.
+    * Consult with business stakeholders, gather requirements, develop user testing scenarios.
 * Conceptualize, create, and maintain a ticketing system for an enterprise-level * environment
     * Link ticketing database to LDAP / Active Directory authentication
     * Link IMAP/SMTP receiver / sender to ticketing system for user ticket request and response
@@ -143,6 +149,7 @@ Responsibilities: PR appearances, speeches, radio interviews, and television spo
 
 * Extremely experienced in the medical industry, dealing with the care, as well as, administrative/business side of the medical industry.
 * Hardware and software troubleshooting, understands OSX systems, possesses extensive knowledge of Windows and Unix (Linux) systems, extremely experienced with computer security / data encryption, and adept at acquiring new technological knowledge.
+* Skilled at building and deploying web applications using PHP or Ruby on Rails.
 * Friendly and professional, proven history of reliability, superb people-skills, and excellent at explaining complex technology to non-technical users and clients.
 * Built and configured Linux servers capable of secured network storage (accessible through any internet connection), multi-user web hosting packages (Including WordPress, phpBB, flat hosting, Ruby on Rails, and many others), SSH configuration and administration, media streaming, and automated network analysis.
 * Creating and maintaining enterprise-level Linux SAMBA Primary Domain Controllers.
