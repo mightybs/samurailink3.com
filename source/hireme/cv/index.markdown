@@ -40,7 +40,7 @@ footer: true
 
 ### 2013 - Present:
 
-#### Board Member of OSIF ([Ohio Information Security Forum](http://www.ohioinfosec.org/))
+#### Board Member of OISF ([Ohio Information Security Forum](http://www.ohioinfosec.org/))
 
 * Acquire speakers/presenters
 * Help build new website
